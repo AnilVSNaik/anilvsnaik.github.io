@@ -33,7 +33,7 @@ ol {
 }
 
 a {
-  text-decoration: none;
+  text-decoration: none; /*links*/
   display: inline;
 }
 
@@ -65,7 +65,7 @@ h1 {
 }
 
 section {
-  color: #FFF;
+  color: #FFF; /*Button to get back to top*/
   background-color: black;
   font-weight: bold;
   padding: 20px;
@@ -80,15 +80,14 @@ section {
 #pictures{
 display:flex;
 justify-content:center;
-}
+}  /*Social Media pictures*/
 
 .titles {
   display: inline-block;
-}
+} /*social media title*/
 
 img {
-  padding: 10px;
-  background-color: #EEEEEE;
+  background-color: #EEEEEE; /*Used to whiten out the highlight for links for soical media pictures*/
 }
 
 #Social {
@@ -110,7 +109,7 @@ img {
 
 
 .hero-image {
-  background-image: url("Engineer.jpg");
+  background-image: url("../Basic-web-pages/My-portfolio/Engineer.jpg"); /*This destination is changed whenevr you upload*/
   height: 750px;
   width: 100%;
   background-position: center;
@@ -119,7 +118,7 @@ img {
   position: relative;
 }
 
-.hero-text {
+.hero-text { /*For The big picture on the home page*/
   text-align: center;
   position: absolute;
   top: 50%;
@@ -130,7 +129,7 @@ img {
   padding: 10px;
 }
 
-.hero-text button {
+.hero-text button { /*For the 'hire me' button*/
   border: none;
   outline: 0;
   display: inline-block;
@@ -141,12 +140,12 @@ img {
   cursor: pointer;
 }
 
-.hero-text button:hover {
+.hero-text button:hover { /*For the 'hire me' button*/
   background-color: #555;
   color: white;
 }
 
-#hero-header {
+#hero-header { /*For the "My name is Anil Vitali Sekhar Naik"*/
   padding:20px;
   opacity: 0.8;
  border-radius: 21px;
@@ -196,4 +195,11 @@ li {
 
   table {
     font-size: 18px;
+  }
+
+  .navi {
+    padding:0px, 0px, 0px, 0px;
+    height: 50px;
+    width:50px;
+    
   }
