@@ -106,7 +106,7 @@ img {
 
 
 .hero-image {
-  background-image: url("../Basic-web-pages/My-portfolio/Engineer.jpg"); /*This destination is changed whenevr you upload*/
+  background-image: url("Engineer.jpg"); /*This destination is changed whenevr you upload*/
   height: 750px;
   width: 100%;
   background-position: center;
