@@ -3,6 +3,7 @@ body {
   background: #EEEEEE; /*Light Grey*/
   font-size:18px;
   width: 100%;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 h1 {
@@ -50,10 +51,6 @@ em, strong {
 
 table, th, td {
   border: 1px solid black;
-}
-
-* {
-  font-family: 'Roboto Condensed', sans-serif;
 }
 
 h1 {
@@ -109,7 +106,7 @@ img {
 
 
 .hero-image {
-  background-image: url("Engineer.jpg"); /*This destination is changed whenevr you upload*/
+  background-image: url("../Basic-web-pages/My-portfolio/Engineer.jpg"); /*This destination is changed whenevr you upload*/
   height: 750px;
   width: 100%;
   background-position: center;
@@ -203,3 +200,14 @@ li {
     width:50px;
     
   }
+#construc {
+  background-color: black; 
+  opacity: 0.7;
+  width: 100%;
+  padding-bottom: 100px;
+  color: white;
+  text-align: center;
+  margin-top: 500px;
+  font-size: 35px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
