@@ -1,0 +1,53 @@
+#Navbar {
+	list-style-type: none;
+	margin:0;
+	padding:0;
+	overflow: hidden;
+	width:250px;
+	background-color: #333;
+	position: sticky;
+	top: 0;
+	width: 100%;
+}
+
+li a {
+	display:inline-flex;
+	color: white;
+	padding:14px 16px;
+	text-align:center;
+	text-decoration: none;
+}
+
+li a:hover:not(.active){
+    background-color: #111;
+}
+
+.active {
+	background-color: #4CAF50;
+}
+
+.navigation {
+	float: left;
+}
+
+.search {
+	float:right;
+	padding: 10px;
+	background-color: solid black;
+}
+
+input.search {
+	background-color:#f47443;
+    color:white;
+    text-align: left;
+}
+
+input {
+	padding-right:2px;
+}
+
+form input:hover {
+background-color: #EEEEEE;
+color:white;
+}
+
