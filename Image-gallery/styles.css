@@ -1,0 +1,101 @@
+html, body{
+	width: 100%;
+}
+
+body {
+font-family: 'Montserrat', sans-serif;
+background: url(background.jpg);
+background-attachment: fixed;
+background-repeat: none;
+background-size: cover;
+background-position: center;
+margin:0;
+text-align: center;
+}
+
+.gallery-items {
+display: inline-block;
+text-align: center;
+background-color:#a9a9a9;
+padding: 10px
+border: 1px gray;
+border-radius: 5px;
+margin: 1px;
+}
+
+.gallery-items img:hover {
+	opacity:0.5;
+	-webkit-transition: width: 1s;
+	transition: 1s;
+}
+
+.gallery-items img{
+max-width: 400px;
+height: 150px;
+}
+
+.lightbox {
+	position: fixed;
+	background-color: rgba(0,0,0,0.8);
+	top:0;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	padding-top: 20px;
+	color:white;
+	text-decoration: none;
+}
+
+.lightbox-contents {
+	display: inline-block;
+	text-decoration: none;
+}
+
+.lightbox-close {
+	float:right;
+}
+
+.lightbox img {
+	width: 100vh;
+	padding:10px;
+	border:1px solid black;
+	background-color: black;
+	border-radius: 30px;
+}
+
+.lightbox a {
+	color:white;
+}
+p {
+	margin: 0;
+}
+
+.hidden {
+	display: none;
+}
+
+.lightbox-controls img{
+	max-height: 30px;
+	max-width: 30px;
+	border:0px;
+	padding: 0px;
+}
+
+#testLine {
+	background-color: rgba(211,211,211,0.8);
+	padding: 50px;
+}
+
+#end {
+	background-color: rgba(211,211,211,0.8);
+	padding: 50px;
+	text-decoration: none;
+}
+
+h1 {
+	padding:41px;
+	background-color: rgba(0,0,0,0.8);
+	margin: 0px;
+	color: white;
+	font-family: 'Cinzel', serif;
+}
