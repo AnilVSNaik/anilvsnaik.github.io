@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hangman</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+</head>
+<body>
+<h1>Hangman</h1>
+
+<h2 id="locationWord">Word</h2>
+<p id="word"></p>
+
+<h2>Guessed alphabets</h2>
+<ul id="past-guesses">
+</ul>
+
+<h2>Guess</h2>
+<p>You have <span id="guesses-left"></span> guesses left</p>
+<form id="player-input">
+	<input id="player-guess" type="text">
+	<input type="submit">
+</form>
+
+<script src="script.js"></script>
+</body>
+</html>

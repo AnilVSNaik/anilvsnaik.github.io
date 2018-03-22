@@ -1,0 +1,42 @@
+html {
+	width: 100%;
+	border:none;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	width: 100%;
+	border:none;
+	margin: 0px;
+	background-color: gray;
+
+}
+
+h1 {
+	padding: 50px;
+	background-color: rgba(65, 105, 225, 0.8);
+	color:white;
+	margin: 0px;
+	font-size: 40px;
+}
+
+input {
+	border: 1px solid black;
+	border-radius: 10px; 
+}
+
+#past-guesses {
+	display: inline-block;
+	list-style-type:none;
+}
+
+h2 {
+	font-size: 30px;
+	background-color: rgba(245,245,220,0.5);
+	padding: 30px;
+}
+
+#locationWord {
+	margin: 0px;
+}
