@@ -14,7 +14,7 @@ let img = document.querySelector("#input-img").value;
 
 
 // // 2.3 Concatenate the URL string
-homeURL = "file:///C:/Users/Anil%20VS%20Naik/Documents/Coding/Javascript/message.html"
+homeURL = "https://anilvsnaik.github.io/Disappearing-Message/message.html"
 
 url = homeURL + '?img-url=' + img + '&msg=' + msg;
 	console.log(url);
