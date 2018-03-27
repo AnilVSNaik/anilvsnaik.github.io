@@ -1,0 +1,61 @@
+html {
+	width: 100%;
+}
+
+#list-data li {
+	list-style-type: none;
+	display: inline-block;
+	width: 200px;
+	text-align: center;
+}
+
+li img {
+	max-width:100%;
+	vertical-align: middle;
+}
+
+#choices button {
+	list-style-type: none;
+	display: inline-block;
+	width: 150px;
+	padding:5px;
+	margin:1px;
+	color:white;
+	border: 1px;
+	border-radius: 10px;
+	font-family: 'Share Tech', sans-serif;
+	font-size: 20px;
+}
+
+body {
+	text-align: center;
+	background: url('question-mark.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	margin: 0px;
+	font-family: 'Share Tech', sans-serif;
+}
+
+h1, p{
+	margin: 0px;
+}
+
+h1{
+	background-color: rgba(0,0,0,0.5);
+	color: white;
+	padding: 21.440px;
+}
+
+p{
+	background-color: rgba(255,255,255,0.5);
+	color: black;
+	padding:14px;
+}
+
+#query-form {
+	padding:2px;
+	background-color: rgba(255,255,255,0.5);
+	padding-bottom: 5px;
+}
