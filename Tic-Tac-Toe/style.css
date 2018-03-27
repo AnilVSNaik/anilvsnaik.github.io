@@ -1,0 +1,79 @@
+.pieces {
+	border:2px solid black;
+	background-color: gray;
+	height:100px;
+	width:100px;
+	padding: 1px;
+	border-radius: 10px;
+	display: inline-block;
+	text-align: center;
+	position:relative;
+	font-size: 110px;
+	font-family: 'Special Elite', cursive;
+}	
+
+body {
+	background-color: black;
+}
+
+h1, p {
+	background-color: black;
+	color: white;
+	font-family: 'IBM Plex Mono', monospace;
+	text-align: center;
+}
+
+#bottomRight{
+position:absolute;
+top:330px;
+margin-left:820px;
+
+}
+
+#bottomMiddle {
+position:absolute;
+top:330px;
+margin-left:711px;
+}
+
+#bottomLeft{
+position:absolute;
+top:330px;
+margin-left:602px;
+}
+
+#middleRight{
+position:absolute;
+top:221px;
+margin-left:820px;
+}
+
+#middle {
+position:absolute;
+top:221px;
+margin-left:711px;
+}
+
+#middleLeft{
+position:absolute;
+top:221px;
+margin-left:602px;
+}
+
+#topRight{
+position:absolute;
+top:112px;
+margin-left:820px;
+}
+
+#topMiddle {
+position:absolute;
+top:112px;
+margin-left:711px;
+}
+
+#topLeft{ 
+position:absolute;
+top:112px;
+margin-left:602px;
+}
