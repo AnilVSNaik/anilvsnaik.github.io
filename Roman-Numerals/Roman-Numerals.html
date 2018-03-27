@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Roman Numerals</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet">
+</head>
+<body>
+<h1>Roman Numbers</h1>
+
+<form id="create-form">
+	<input>
+	<button onclick="romanize()">Click to Convert</button>
+</form>
+<p id="ro"></p>
+
+<script type="text/javascript">
+	let num;
+	var para = document.getElementById('ro');
+	// var prompt = prompt('Give me a Number.');
+	// para.innerHTML = romanize(prompt);
+
+	function romanize(num) {
+  		var lookup = {M:1000,CM:900,D:500,CD:400,C:100,XC:90,L:50,XL:40,X:10,IX:9,V:5,IV:4,I:1},roman = '',i;
+  		for ( i in lookup ) {
+    		while ( num >= lookup[i] ) {
+      		roman += i;
+      		num -= lookup[i];
+    		}
+  		}
+
+  		if (typeof(num) == 'string') {
+  			window.alert("That's not a number fam.")
+  		}
+  		else {
+  	  	return roman;
+  		}
+	}
+
+	var form = document.getElementById("create-form")
+	form.onsubmit = function(event){
+		event.preventDefault();
+		var inputBox = document.querySelector("input");
+		var number = inputBox.value;
+		para.innerHTML = romanize(number);
+
+	}
+	
+
+</script>
+</body>
+</html>
